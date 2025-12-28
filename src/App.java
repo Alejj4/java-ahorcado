@@ -14,7 +14,7 @@ public class App {
             letrasAdivinadas[i] = '_';
         }
         while (!adivinado && intento < intentosMaximos) {
-            System.out.println("Palabra a adivinar:" + String.valueOf(letrasAdivinadas)+ " (" +   (palabraSecreta.length()+ " letras)"));
+            System.out.println("Palabra a adivinar:" + String.valueOf(letrasAdivinadas)+ " (" +   (palabraSecreta.length()+ " letras restantes)"));
             System.out.println("Introduce una letra.");
             char letra = Character.toLowerCase(scanner.next().charAt(0));
             boolean letraCorrecta = false;
